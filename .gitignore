@@ -1,40 +1,60 @@
-# Confidential raw data
-data/raw/*
-!data/raw/.gitkeep
+# ============================================================
+# Confidential and raw data
+# ============================================================
 
-# Processed data generated locally
-data/processed/*
-!data/processed/.gitkeep
+data/raw/
+data/processed/
 
-# Excel files
 *.xlsx
 *.xls
 
-# Saved models and large R objects
+# ============================================================
+# Saved model objects
+# ============================================================
+
 models/*.rds
 models/*.RData
-*.RData
-*.rda
+models/*.rda
 
-# RStudio
-.Rproj.user/
+# ============================================================
+# R and RStudio temporary files
+# ============================================================
+
 .Rhistory
 .RData
 .Ruserdata
+.Rproj.user/
 
-# renv local library
+# ============================================================
+# renv local package library
+# ============================================================
+
 renv/library/
 renv/staging/
+renv/python/
+renv/local/
 
-# Quarto and R Markdown intermediate files
+# ============================================================
+# Quarto and rendered temporary files
+# ============================================================
+
 *_cache/
 *_files/
+.quarto/
 _freeze/
 
-# Operating-system files
+# ============================================================
+# Operating-system and editor files
+# ============================================================
+
 .DS_Store
 Thumbs.db
-
-# Temporary files
 *.tmp
 *.log
+
+# ============================================================
+# Temporary outputs
+# ============================================================
+
+results/full_future_predictions.csv
+results/out_of_fold_predictions.csv
