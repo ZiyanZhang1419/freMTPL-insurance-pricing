@@ -1,0 +1,40 @@
+# Confidential raw data
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed data generated locally
+data/processed/*
+!data/processed/.gitkeep
+
+# Excel files
+*.xlsx
+*.xls
+
+# Saved models and large R objects
+models/*.rds
+models/*.RData
+*.RData
+*.rda
+
+# RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# renv local library
+renv/library/
+renv/staging/
+
+# Quarto and R Markdown intermediate files
+*_cache/
+*_files/
+_freeze/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
