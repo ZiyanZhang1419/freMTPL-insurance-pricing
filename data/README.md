@@ -3,7 +3,7 @@ The original dataset used for this project cannot be redistributed due to data-a
 
 The repository therefore provides small synthetic datasets with the same variable structure as the modelling data. These files are intended only to demonstrate the complete modelling workflow.
 
-This dataset comes from R package CASdatasets - freMTPL.
+This dataset comes from R package CASdatasets - freMTPL. 
 
 ## Variables
 
